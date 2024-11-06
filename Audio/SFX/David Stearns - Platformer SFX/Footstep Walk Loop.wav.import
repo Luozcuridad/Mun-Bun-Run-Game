@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bck7vgml257w4"
+path="res://.godot/imported/Footstep Walk Loop.wav-817e4b7c2af4b0df6742f4b1689112dc.sample"
+
+[deps]
+
+source_file="res://Audio/SFX/David Stearns - Platformer SFX/Footstep Walk Loop.wav"
+dest_files=["res://.godot/imported/Footstep Walk Loop.wav-817e4b7c2af4b0df6742f4b1689112dc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

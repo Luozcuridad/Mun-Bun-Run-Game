@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ds8m417gag6il"
+path="res://.godot/imported/Hit 4.wav-b2ea73bf1d75f3db87a4afb46dc262c1.sample"
+
+[deps]
+
+source_file="res://Audio/SFX/David Stearns - Platformer SFX/Hit 4.wav"
+dest_files=["res://.godot/imported/Hit 4.wav-b2ea73bf1d75f3db87a4afb46dc262c1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

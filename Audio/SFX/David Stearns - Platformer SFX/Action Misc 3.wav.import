@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b65ixrwjqyhkp"
+path="res://.godot/imported/Action Misc 3.wav-a345e7bfefe23dd9c6ebc918d6d28593.sample"
+
+[deps]
+
+source_file="res://Audio/SFX/David Stearns - Platformer SFX/Action Misc 3.wav"
+dest_files=["res://.godot/imported/Action Misc 3.wav-a345e7bfefe23dd9c6ebc918d6d28593.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

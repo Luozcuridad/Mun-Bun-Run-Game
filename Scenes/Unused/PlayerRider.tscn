@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://bcyghhil41jot"]
+
+[ext_resource type="Script" path="res://Scenes/Unused/PlayerRider.gd" id="1_iudv7"]
+[ext_resource type="Texture2D" uid="uid://c8p53ftthjoxa" path="res://Visuals/Kenney Assets/PP tilemap-characters_packed.png" id="2_2kjkm"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_cj74d"]
+radius = 7.0
+height = 24.0
+
+[node name="PlayerRider" type="CharacterBody2D" groups=["PlayerCharacter"]]
+script = ExtResource("1_iudv7")
+max_speed = 200
+jump_force = 300
+acceleration = 25
+jump_stop = 100
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(3, -16)
+texture = ExtResource("2_2kjkm")
+hframes = 9
+vframes = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_cj74d")

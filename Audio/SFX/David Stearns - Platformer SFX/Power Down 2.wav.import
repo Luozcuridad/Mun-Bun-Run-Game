@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bev7robd1cmb8"
+path="res://.godot/imported/Power Down 2.wav-fd49785a579b6dfb4dfb552da5659134.sample"
+
+[deps]
+
+source_file="res://Audio/SFX/David Stearns - Platformer SFX/Power Down 2.wav"
+dest_files=["res://.godot/imported/Power Down 2.wav-fd49785a579b6dfb4dfb552da5659134.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

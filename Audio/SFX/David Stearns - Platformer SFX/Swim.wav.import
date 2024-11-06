@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://vl5ebv3qv7hh"
+path="res://.godot/imported/Swim.wav-e4c6974eacfc4576a070f3d2de3a14a5.sample"
+
+[deps]
+
+source_file="res://Audio/SFX/David Stearns - Platformer SFX/Swim.wav"
+dest_files=["res://.godot/imported/Swim.wav-e4c6974eacfc4576a070f3d2de3a14a5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

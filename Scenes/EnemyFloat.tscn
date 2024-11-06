@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://cv1g5wolmdf8c"]
+
+[ext_resource type="Script" path="res://Scenes/EnemyFloat.gd" id="1_lgkhv"]
+[ext_resource type="Texture2D" uid="uid://c8p53ftthjoxa" path="res://Visuals/Kenney Assets/PP tilemap-characters_packed.png" id="2_u1u30"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g8ueg"]
+radius = 11.0
+height = 24.0
+
+[node name="EnemyFloat" type="Area2D"]
+script = ExtResource("1_lgkhv")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_u1u30")
+hframes = 9
+vframes = 3
+frame = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_g8ueg")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

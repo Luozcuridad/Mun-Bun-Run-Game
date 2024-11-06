@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://diehtbeberkx5"
+path="res://.godot/imported/SUPERHUMAN STRENGTH!!.mp3-069c1220f1132600d790883fe4067dbe.mp3str"
+
+[deps]
+
+source_file="res://Audio/Music/SUPERHUMAN STRENGTH!!.mp3"
+dest_files=["res://.godot/imported/SUPERHUMAN STRENGTH!!.mp3-069c1220f1132600d790883fe4067dbe.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

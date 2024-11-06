@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bomvw86wpka43"
+path="res://.godot/imported/Collect 2.wav-52ea8b5d826911769613dc507656234d.sample"
+
+[deps]
+
+source_file="res://Audio/SFX/David Stearns - Platformer SFX/Collect 2.wav"
+dest_files=["res://.godot/imported/Collect 2.wav-52ea8b5d826911769613dc507656234d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

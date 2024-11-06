@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://4vw8xoo4ew6h"]
+
+[ext_resource type="Script" path="res://Scenes/Checkpoint.gd" id="1_vk1tj"]
+[ext_resource type="Texture2D" uid="uid://c8p53ftthjoxa" path="res://Visuals/Kenney Assets/PP tilemap-characters_packed.png" id="2_7jhxa"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5fksi"]
+
+[node name="Checkpoint" type="Area2D"]
+script = ExtResource("1_vk1tj")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_7jhxa")
+hframes = 9
+vframes = 3
+frame = 11
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_5fksi")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

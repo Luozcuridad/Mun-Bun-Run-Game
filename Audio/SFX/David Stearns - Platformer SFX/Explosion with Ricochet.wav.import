@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ko644nk48uvt"
+path="res://.godot/imported/Explosion with Ricochet.wav-6839eb695db853987898c715f42b196e.sample"
+
+[deps]
+
+source_file="res://Audio/SFX/David Stearns - Platformer SFX/Explosion with Ricochet.wav"
+dest_files=["res://.godot/imported/Explosion with Ricochet.wav-6839eb695db853987898c715f42b196e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

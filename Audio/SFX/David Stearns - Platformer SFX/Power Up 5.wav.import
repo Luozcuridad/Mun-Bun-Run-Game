@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bwg5dqmr25eu6"
+path="res://.godot/imported/Power Up 5.wav-07c896513b007ade01ef873759f1c34d.sample"
+
+[deps]
+
+source_file="res://Audio/SFX/David Stearns - Platformer SFX/Power Up 5.wav"
+dest_files=["res://.godot/imported/Power Up 5.wav-07c896513b007ade01ef873759f1c34d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
